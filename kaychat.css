@@ -1,0 +1,137 @@
+header nav {
+  background-color: #E1E2E1;
+  border-bottom: 8px solid #FF6577;
+}
+
+header nav a {
+  color: #FF6577;
+}
+
+header nav a:hover {
+  color: #FF6577;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+header nav ul li a:hover {
+  background-color: #FF6577;
+  color: #fff;
+  padding: 10px;
+  -webkit-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+}
+
+main #cont-1 #frame-1 #image-1:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+main #cont-1 #story-1 {
+  height: 500px;
+  background-color: #FF6577;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  line-height: 35px;
+  padding: 40px 30px 0px 30px;
+  color: white;
+  font-size: 20px;
+  font-family: "Architects Daughter", cursive, sans-serif;
+  -webkit-box-shadow: 5px 5px 30px 10px #dedede;
+          box-shadow: 5px 5px 30px 10px #dedede;
+  border-radius: 10px 10px 20px 20px;
+}
+
+main #cont-2 {
+  margin-top: 150px;
+}
+
+main #cont-2 #story-1 {
+  background-color: #ff98a4;
+  border-radius: 20px;
+  height: 300px;
+}
+
+main #cont-2 #story-1 .card {
+  background: #FF6577;
+  margin-bottom: -100px;
+}
+
+main #cont-2 #story-1 .card .card__content {
+  text-align: center;
+  position: relative;
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+  padding: 10px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+main #cont-2 #story-1 .card .card__content:hover {
+  -webkit-transform: rotateY(0.5turn);
+          transform: rotateY(0.5turn);
+}
+
+main #cont-2 #story-1 .card .card__content .card__front {
+  color: white;
+}
+
+main #cont-2 #story-1 .card .card__content .card__front .card__title {
+  font-size: 3rem;
+  -webkit-transform: translateZ(5rem);
+          transform: translateZ(5rem);
+  font-family: 'Dancing Script', cursive;
+}
+
+main #cont-2 #story-1 .card .card__content .card__front .card__subtitle {
+  -webkit-transform: translateZ(5rem);
+          transform: translateZ(5rem);
+  font-size: 18px;
+}
+
+main #cont-2 #story-1 .card .card__content .card__back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background-color: #E1E2E1;
+  -webkit-transform: rotateY(0.5turn);
+          transform: rotateY(0.5turn);
+}
+
+main #cont-2 #story-1 .card .card__content .card__body {
+  -webkit-transform: translateZ(2rem);
+          transform: translateZ(2rem);
+  line-height: 30px;
+}
+
+main #cont-2 #story-2 {
+  font-family: "Architects Daughter", cursive, sans-serif;
+  background-color: #ffcbd1;
+  border-radius: 20px;
+}
+
+main #cont-4 button {
+  padding: 10px 40px;
+}
+
+main #cont-4 button span {
+  font-size: 28px;
+}
+
+footer {
+  background-color: #E1E2E1;
+  padding: 5px;
+  border-top: 3px solid #FF6577;
+}
+
+footer div a {
+  color: black;
+}
+/*# sourceMappingURL=kaychat.css.map */

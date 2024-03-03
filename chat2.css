@@ -1,0 +1,59 @@
+@media only screen and (max-width: 900px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+    }
+    
+    header {
+        background-color: #FF6577;
+    }
+      
+    header div {
+        padding: 0px 30px 5px 30px;
+    }
+    
+    header div span {
+        font-size: 25px;
+        color: #ffffff;
+    }
+    main {
+        padding: 10px 30px;
+        border: 10px inset #FF6577;
+        background-color: #E1E2E1;
+    }
+    
+    #main-2 {
+        width: 100%; 
+        margin: 0px auto;
+    }
+    
+    #left {
+        background-color: #ffffff;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        border-radius: 20px 20px 20px 0px;
+    }
+    
+    #right {
+        background-color: #FF6577;
+        padding: 10px;
+        border-radius: 20px 20px 0px 20px;
+        width: 200px;
+        margin: 10px;
+    }
+    
+    #message {
+        border-radius: 15px;
+    }
+    
+    #plane {
+        background-color: #FF6577;
+        font-size: 23px;
+        padding: 10px;
+        color: #ffffff;
+        border-radius: 20px;
+    } 
+}

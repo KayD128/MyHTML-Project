@@ -1,0 +1,161 @@
+button:hover {
+  background-color: #ffcbd1;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header {
+  background-color: #FF6577;
+  height: 100px;
+}
+
+header div {
+  padding: 0px 30px;
+}
+
+header div span {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+}
+
+main #prof-1 {
+  background-image: url("Images/katana.jpg");
+  height: 300px;
+  font-family: "Architects Daughter", cursive, sans-serif;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #ff677f;
+}
+
+main #prof-1 div img {
+  border: 5px solid white;
+}
+
+main #prof-1 div img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #status {
+  line-height: 12px;
+}
+
+main #prof-2 {
+  background-color: #f7f7f7;
+}
+
+main #prof-2 h1 {
+  font-family: "Architects Daughter", cursive, sans-serif;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+main #prof-2 #cont-1 #div-1 #descr {
+  font-size: 15px;
+}
+
+main #prof-2 #cont-1 #div-1 button {
+  background-color: #FF6577;
+  font-family: "Architects Daughter", cursive, sans-serif;
+}
+
+main #prof-2 #cont-1 #div-1 button:hover {
+  background-color: #ff98a4;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+main #prof-2 #cont-1 #div-2 {
+  margin-top: 100px;
+}
+
+main #prof-2 #cont-1 #div-2 #icon {
+  color: white;
+  background-color: #E1E2E1;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 70px;
+}
+
+main #prof-2 #cont-1 #div-2 #icon:hover {
+  background-color: #FF6577;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #prof-2 #cont-2 #div-1 #descr {
+  font-size: 15px;
+}
+
+main #prof-2 #cont-2 #div-1 #accept {
+  background-color: #FF6577;
+  font-family: "Architects Daughter", cursive, sans-serif;
+}
+
+main #prof-2 #cont-2 #div-1 #accept:hover {
+  background-color: #ff98a4;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+main #prof-2 #cont-2 #div-1 #ignore {
+  font-family: "Architects Daughter", cursive, sans-serif;
+}
+
+main #prof-2 #cont-2 #div-2 {
+  margin-top: 100px;
+}
+
+main #prof-2 #cont-2 #div-2 #icon {
+  color: white;
+  background-color: #E1E2E1;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 70px;
+}
+
+main #prof-2 #cont-2 #div-2 #icon:hover {
+  background-color: #FF6577;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #prof-2 #cont-3 #div-1 #descr {
+  font-size: 15px;
+}
+
+main #prof-2 #cont-3 #div-1 button {
+  background-color: #FF6577;
+  font-family: "Architects Daughter", cursive, sans-serif;
+}
+
+main #prof-2 #cont-3 #div-1 button:hover {
+  background-color: #ff98a4;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+main #prof-2 #cont-3 #div-2 {
+  margin-top: 100px;
+}
+
+main #prof-2 #cont-3 #div-2 #icon {
+  color: white;
+  background-color: #E1E2E1;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 70px;
+}
+
+main #prof-2 #cont-3 #div-2 #icon:hover {
+  background-color: #FF6577;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*# sourceMappingURL=profile.css.map */

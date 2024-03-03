@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+#title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #FF6577;
+
+}
+
+#text {
+    font-family: 'Architects Daughter', cursive, sans-serif;
+    line-height: 40px;
+}

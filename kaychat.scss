@@ -1,0 +1,149 @@
+$p-color:#FF6577;
+$s-color: #E1E2E1;
+$font: 'Architects Daughter', cursive, sans-serif;
+
+header {
+    nav {
+        background-color: $s-color;
+        border-bottom: 8px solid $p-color;
+
+        a {
+            color: $p-color;
+
+            &:hover {
+                color: $p-color;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+        }
+
+        ul {
+            li {
+                a {
+
+                    &:hover {
+                        background-color: $p-color;
+                        color: #fff;
+                        padding: 10px;
+                        transition: .35s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    #cont-1 {
+
+        #frame-1 {
+
+            #image-1 {
+                
+                &:hover {
+                    transform: scale(1.4);
+                    transition: .5s ease-in-out;
+                }
+            }
+        }
+
+        #story-1 {
+            height: 500px;
+            background-color: $p-color;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+            line-height: 35px;
+            padding: 40px 30px 0px 30px;
+            color: white;
+            font-size: 20px;
+            font-family: $font;
+            box-shadow: 5px 5px 30px 10px #dedede;
+            border-radius: 10px 10px 20px 20px;
+        }
+    }
+
+    #cont-2 {
+        margin-top: 150px;
+
+        #story-1 {
+            background-color: lighten($p-color, 10%);
+            border-radius: 20px;
+            height: 300px;
+        
+            .card {
+                background: $p-color;
+                margin-bottom: -100px;
+
+                .card__content {
+                    text-align: center;
+                    position: relative;
+                    transition: transform 3s;
+                    padding: 10px;
+                    transform-style: preserve-3d;
+
+                    &:hover {
+                        transform: rotateY(.5turn);
+                    }
+
+                    .card__front {
+                        color: white;
+                        .card__title {
+                            font-size: 3rem;
+                            transform: translateZ(5rem);
+                            font-family: 'Dancing Script', cursive;    
+                        }
+
+                        .card__subtitle {
+                            transform: translateZ(5rem);
+                            font-size: 18px;
+                        }
+                    }
+
+                    .card__back {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;	
+                        backface-visibility: hidden;
+                        background-color: $s-color;
+                        transform: rotateY(.5turn);
+                    }
+
+                    .card__body {
+                        transform: translateZ(2rem);
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+
+        #story-2 {
+            font-family: $font;
+            background-color: lighten($p-color, 20%);
+            border-radius: 20px;
+            // padding-left: 40px;
+        }
+    }
+
+    #cont-4 {
+        button {
+            padding: 10px 40px;
+
+            span {
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $s-color;
+    padding: 5px;
+    border-top: 3px solid $p-color;
+
+    div {
+        a {
+            color: black;
+        }    
+    }    
+}
